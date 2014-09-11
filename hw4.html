@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <script src="jquery-2.1.1.min.js"></script>
+  <style>
+  body{
+    background-color: blue;
+  }
+  #wrapper{
+    width: 50%;
+    margin: 0 auto;
+  }
+  input {
+    background-color: red;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  #banana{
+    margin-left: 64px;
+  }
+  #apple{
+    margin-left: 70px;
+  }
+  #responseAreaJoke{
+    color: white;
+    width: 50%;
+    margin: 16 auto;
+  }
+  #responseAreaAnswer{
+    color: white;
+    width: 50%;
+    margin: 16 auto;
+  }
+  </style>
+  <title>Tell me a Joke!</title>
+
+  <script type="text/javascript" src="hw4.js"></script>
+</head>
+<body id="body">
+  <div id="wrapper">
+  <form name="sj" id="sj">
+    <input type="button" value="Show Joke" onclick="showJoke()" id="apple">
+  </form>
+  </div>
+  <div id="responseAreaJoke"></div>
+  <div id="wrapper">
+  <form name="sa" id="sa">
+    <input type="button" value="Show Answer" id="banana">
+  </form>
+  </div>
+  <div id="responseAreaAnswer"></div>
+
+  <button> This will do something </button>
+
+  <div id="dude"></div>
+  
+</body>
+</html>
